@@ -1,0 +1,1 @@
+None of this code is owned by us and is credited where appropriate.
