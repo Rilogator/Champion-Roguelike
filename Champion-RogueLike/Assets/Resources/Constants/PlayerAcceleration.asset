@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Name: PlayerAcceleration
   m_EditorClassIdentifier: 
   DeveloperDescription: "The rate at which the player's movement\n speed increases."
-  Value: 0
+  Value: 4000
