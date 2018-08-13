@@ -14,10 +14,14 @@ public class FourWayMovement : MonoBehaviour
 	private Vector3 mousePosition;
 	private Quaternion attackRot;
 
+	//Animator
+	private Animator anim;
+
 	// Use this for initialization
 	void Start ()
 	{
 		myBody = this.GetComponent<Rigidbody2D>();
+		anim = gameObject.GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame
@@ -44,5 +48,24 @@ public class FourWayMovement : MonoBehaviour
 			|| (myBody.velocity.y < -maxSpeed && _moveY > 0) 
 			|| Mathf.Abs(myBody.velocity.x) < maxSpeed)
 				myBody.AddForce(new Vector3(0, movement.y) * accel * Time.deltaTime);
+
+		//Update Animator
+		if (movement.x != 0 || movement.y != 0)
+		{
+			SetMove(true);
+			anim.SetFloat("moveX", movement.x);
+			anim.SetFloat("moveY", movement.y);
+		}
+		else
+		{
+			SetMove(false);
+		}
 	}
+
+	#region Animator
+	public void SetMove(bool state)
+	{
+		anim.SetBool("isMoving", state);
+	}
+	#endregion
 }
