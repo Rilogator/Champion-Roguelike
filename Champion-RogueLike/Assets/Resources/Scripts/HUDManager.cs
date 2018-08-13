@@ -6,7 +6,7 @@ public class HUDManager : MonoBehaviour
 {
 
 	public FloatVariable hp;
-	public FloatVariable maxHp;
+	public FloatReference maxHp;
 
 	public Slider healthMeter;
 
