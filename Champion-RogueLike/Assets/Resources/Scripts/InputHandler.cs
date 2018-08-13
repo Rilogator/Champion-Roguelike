@@ -1,10 +1,11 @@
 ﻿using UnityEngine;
+using UnityEngine.Events;
 using RoboRyanTron.Unite2017.Variables;
 using RoboRyanTron.Unite2017.Events;
 
 public class InputHandler : MonoBehaviour
 {
-	//public GameEvent attackTrigger;
+	public UnityEvent AttackInputEvent;
 
 	// Use this for initialization
 	void Start ()
@@ -15,6 +16,7 @@ public class InputHandler : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-		
+		if (Input.GetButtonDown("Fire1"))
+			AttackInputEvent.Invoke();
 	}
 }
