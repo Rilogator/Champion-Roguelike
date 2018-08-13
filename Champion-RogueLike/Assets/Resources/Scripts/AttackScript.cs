@@ -22,5 +22,6 @@ public class AttackScript : GameEventListener
 	public void Attack()
 	{
 		anim.SetTrigger("Attack");
+
 	}
 }

@@ -173,7 +173,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &908517671
 Prefab:
@@ -212,7 +212,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4185754948133194, guid: 6ea221917eee8f749af094e63363f1cf, type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ea221917eee8f749af094e63363f1cf, type: 2}
@@ -259,6 +259,10 @@ Prefab:
     - target: {fileID: 1396682551463526, guid: d93fe32e682f20744aa64893f7fb7f17, type: 2}
       propertyPath: m_Name
       value: Knight
+      objectReference: {fileID: 0}
+    - target: {fileID: 1044331736401080, guid: d93fe32e682f20744aa64893f7fb7f17, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114695162789244846, guid: d93fe32e682f20744aa64893f7fb7f17, type: 2}
