@@ -37,8 +37,7 @@ GameObject:
   - component: {fileID: 4078977713708730}
   - component: {fileID: 114863908597819766}
   - component: {fileID: 212182225339462042}
-  - component: {fileID: 114695162789244846}
-  - component: {fileID: 114549835852962580}
+  - component: {fileID: 114101339552007234}
   - component: {fileID: 95911705598264782}
   - component: {fileID: 50442486793846736}
   - component: {fileID: 58107417731274760}
@@ -144,7 +143,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &114549835852962580
+--- !u!114 &114101339552007234
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -155,50 +154,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900525beb5499440b0dec1f60d1fb5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event: {fileID: 11400000, guid: da8ce253eb33d854faeec47bda0a232d, type: 2}
-  Response:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 114549835852962580}
-        m_MethodName: Attack
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: Attack
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &114695162789244846
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1396682551463526}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d119ceb8157e86741ae49c521f7d0e0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AttackInputEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: da8ce253eb33d854faeec47bda0a232d, type: 2}
-        m_MethodName: Raise
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &114863908597819766
 MonoBehaviour:
   m_ObjectHideFlags: 1
