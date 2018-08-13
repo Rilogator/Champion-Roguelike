@@ -2,20 +2,19 @@
 using RoboRyanTron.Unite2017.Variables;
 using RoboRyanTron.Unite2017.Events;
 
-public class AttackScript : MonoBehaviour
+public class InputHandler : MonoBehaviour
 {
-	private Animator anim;
+	//public GameEvent attackTrigger;
 
 	// Use this for initialization
 	void Start ()
 	{
-		anim = gameObject.GetComponent<Animator>();
+		
 	}
 	
 	// Update is called once per frame
 	void Update ()
 	{
-		if (Input.GetButtonDown("Fire1"))
-			anim.SetTrigger("Attack");
+		
 	}
 }
