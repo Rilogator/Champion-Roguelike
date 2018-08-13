@@ -7,8 +7,14 @@ public class HUDManager : MonoBehaviour
 
 	public FloatVariable hp;
 	public FloatReference maxHp;
+	public Text hpText;
+
+	public FloatVariable rp;
+	public FloatReference maxRp;
+	public Text rpText;
 
 	public Slider healthMeter;
+	public Slider relicMeter;
 
 	// Use this for initialization
 	void Start ()
@@ -20,5 +26,10 @@ public class HUDManager : MonoBehaviour
 	void Update ()
 	{
 		healthMeter.value = hp.Value / maxHp.Value;
+		hpText.text = hp.Value.ToString() + "/" + maxHp.Value.ToString();
+
+		relicMeter.value = rp.Value / maxRp.Value;
+		rpText.text = rp.Value.ToString() + "/" + maxRp.Value.ToString();
+
 	}
 }
