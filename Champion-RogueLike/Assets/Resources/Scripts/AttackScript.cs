@@ -1,9 +1,7 @@
 ﻿using UnityEngine;
-using UnityEngine.Events;
 using RoboRyanTron.Unite2017.Variables;
-using RoboRyanTron.Unite2017.Events;
 
-public class AttackScript : GameEventListener
+public class AttackScript : MonoBehaviour
 {
 	private Animator anim;
 
@@ -16,12 +14,7 @@ public class AttackScript : GameEventListener
 	// Update is called once per frame
 	void Update ()
 	{
-		
-	}
-
-	public void Attack()
-	{
-		anim.SetTrigger("Attack");
-
+		if (Input.GetButtonDown("Fire1"))
+			anim.SetTrigger("Attack");
 	}
 }

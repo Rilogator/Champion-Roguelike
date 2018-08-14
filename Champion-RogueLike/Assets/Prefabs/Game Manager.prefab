@@ -19,7 +19,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4603195372323150}
-  - component: {fileID: 114628457276216510}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -331,7 +330,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -545,33 +544,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Slider+SliderEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &114628457276216510
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1019453164526838}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d119ceb8157e86741ae49c521f7d0e0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AttackInputEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: da8ce253eb33d854faeec47bda0a232d, type: 2}
-        m_MethodName: Raise
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &114669108033366358
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -583,7 +555,7 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -789,10 +761,10 @@ RectTransform:
   m_Father: {fileID: 224982892695231588}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -453.62, y: 262.66}
-  m_SizeDelta: {x: -907.15, y: -525.43}
+  m_AnchorMin: {x: 0, y: 0.75333166}
+  m_AnchorMax: {x: 0.33, y: 1}
+  m_AnchoredPosition: {x: -0.047607422, y: 0.025024414}
+  m_SizeDelta: {x: 0.095032, y: 0.049988}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224047652538933022
 RectTransform:
@@ -830,8 +802,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1, y: -0.7}
-  m_SizeDelta: {x: 275.88, y: 47.243}
+  m_AnchoredPosition: {x: -1.97, y: -12.34}
+  m_SizeDelta: {x: 253.71, y: 60.67}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224060306395101930
 RectTransform:
@@ -961,8 +933,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.99914, y: 24.443}
-  m_SizeDelta: {x: 275.88, y: 43.69}
+  m_AnchoredPosition: {x: -1.97, y: 19.96}
+  m_SizeDelta: {x: 253.71, y: 56.01}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224863712985078206
 RectTransform:
