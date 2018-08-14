@@ -6,6 +6,9 @@ public class FourWayMovement : MonoBehaviour
 	public FloatReference maxSpeed;
 	public FloatReference accel;
 
+	//North = 0, East = 1, South = 2, West = 3
+	public IntVariable facing;
+
 	private Rigidbody2D myBody;
 
 	private float _moveX, _moveY;
@@ -30,11 +33,15 @@ public class FourWayMovement : MonoBehaviour
 		_moveX = Input.GetAxisRaw("Horizontal");
 		_moveY = Input.GetAxisRaw("Vertical");
 		movement = new Vector3(_moveX, _moveY).normalized;
+
+		//Update Animator values
+		SetMove();
+		SetFacing(facing.Value);
 	}
 
 	private void FixedUpdate()
 	{
-		Move();
+		Move();		
 	}
 
 	public void Move()
@@ -49,23 +56,30 @@ public class FourWayMovement : MonoBehaviour
 			|| Mathf.Abs(myBody.velocity.x) < maxSpeed)
 				myBody.AddForce(new Vector3(0, movement.y) * accel * Time.deltaTime);
 
-		//Update Animator
+		//Set player facing
+
+	}
+
+	#region Animator
+
+	public void SetMove()
+	{
 		if (movement.x != 0 || movement.y != 0)
 		{
-			SetMove(true);
+			anim.SetBool("isMoving", true);
 			anim.SetFloat("moveX", movement.x);
 			anim.SetFloat("moveY", movement.y);
 		}
 		else
 		{
-			SetMove(false);
+			anim.SetBool("isMoving", false);
 		}
 	}
 
-	#region Animator
-	public void SetMove(bool state)
+	public void SetFacing(int num)
 	{
-		anim.SetBool("isMoving", state);
+		anim.SetInteger("Facing", num);
 	}
+
 	#endregion
 }
