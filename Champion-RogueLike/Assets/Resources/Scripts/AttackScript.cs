@@ -4,7 +4,7 @@ using RoboRyanTron.Unite2017.Variables;
 public class AttackScript : MonoBehaviour
 {
 	private Animator anim;
-	private Rigidbody2D myBody;
+	//private Rigidbody2D myBody;
 
 	// Use this for initialization
 	void Start ()
@@ -22,8 +22,8 @@ public class AttackScript : MonoBehaviour
 		}
 	}
 
-	//public void StopMove()
-	//{
-	//	myBody.velocity = Vector2.zero;
-	//}
+	public void ResetTrigger(string trigger)
+	{
+		anim.ResetTrigger(trigger);
+	}
 }
