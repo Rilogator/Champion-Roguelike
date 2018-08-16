@@ -38,6 +38,7 @@ GameObject:
   - component: {fileID: 114863908597819766}
   - component: {fileID: 212182225339462042}
   - component: {fileID: 114101339552007234}
+  - component: {fileID: 114078272338731362}
   - component: {fileID: 95911705598264782}
   - component: {fileID: 50442486793846736}
   - component: {fileID: 58107417731274760}
@@ -143,6 +144,29 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114078272338731362
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1396682551463526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d6c0b5a62322e142ac306d103deccf2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dashCD:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: aa82a1a22b097be41b83080fa816d338, type: 2}
+  dashTime:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: f57b8cd0fa405d34fb4eb804b6388db9, type: 2}
+  dashPower:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 5d7d51af9a2df20468e654d02e5fe325, type: 2}
 --- !u!114 &114101339552007234
 MonoBehaviour:
   m_ObjectHideFlags: 1
