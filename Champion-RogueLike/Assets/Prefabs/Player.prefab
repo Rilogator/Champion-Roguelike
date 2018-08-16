@@ -19,6 +19,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4344108753061490}
+  - component: {fileID: 114181926356937788}
   - component: {fileID: 58873295433138256}
   m_Layer: 0
   m_Name: Attack Hitbox
@@ -35,6 +36,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4078977713708730}
+  - component: {fileID: 114448465869786488}
   - component: {fileID: 114863908597819766}
   - component: {fileID: 212182225339462042}
   - component: {fileID: 114101339552007234}
@@ -178,6 +180,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8900525beb5499440b0dec1f60d1fb5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114181926356937788
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1044331736401080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3870d1a7207a5f94db08d1cefcf78825, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DamageAmount:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: 2de34d433c81f4649ba06a094ac9197c, type: 2}
+--- !u!114 &114448465869786488
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1396682551463526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f716b69c70f98b14ab10be786d22a31b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HP: {fileID: 11400000, guid: 1f12a9b8a9993ee46b46b07bbe7c0938, type: 2}
+  ResetHP: 1
+  StartingHP:
+    UseConstant: 0
+    ConstantValue: 0
+    Variable: {fileID: 11400000, guid: eba9a9991cd1b7d46afc82573a4b52e0, type: 2}
+  DamageEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  DeathEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!114 &114863908597819766
 MonoBehaviour:
   m_ObjectHideFlags: 1

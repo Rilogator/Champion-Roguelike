@@ -155,7 +155,7 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43e820b175ad660478be67382dc1a27c, type: 2}
   m_IsPrefabAsset: 0
---- !u!1001 &1852231847
+--- !u!1001 &1713379913
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -197,11 +197,6 @@ Prefab:
     - target: {fileID: 1396682551463526, guid: d93fe32e682f20744aa64893f7fb7f17, type: 2}
       propertyPath: m_Name
       value: Knight
-      objectReference: {fileID: 0}
-    - target: {fileID: 58107417731274760, guid: d93fe32e682f20744aa64893f7fb7f17,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d93fe32e682f20744aa64893f7fb7f17, type: 2}
