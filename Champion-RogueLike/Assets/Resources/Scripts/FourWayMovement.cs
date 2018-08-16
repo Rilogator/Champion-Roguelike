@@ -7,7 +7,7 @@ public class FourWayMovement : MonoBehaviour
 	public FloatReference accel;
 
 	//North = 0, East = 1, South = 2, West = 3
-	//public IntVariable facing;
+	public IntVariable facing;
 
 	private Rigidbody2D myBody;
 
@@ -36,6 +36,7 @@ public class FourWayMovement : MonoBehaviour
 
 		//Update Animator values
 		SetMove();
+		SetFacing();
 	}
 
 	private void FixedUpdate()
@@ -68,6 +69,19 @@ public class FourWayMovement : MonoBehaviour
 			anim.SetBool("isMoving", true);
 			anim.SetFloat("moveX", movement.x);
 			anim.SetFloat("moveY", movement.y);
+
+			//Set Facing
+			if (movement.y == 1)
+				facing.SetValue(0);
+
+			if (movement.x == 1)
+				facing.SetValue(1);
+
+			if (movement.y == -1)
+				facing.SetValue(2);
+
+			if (movement.x == -1)
+				facing.SetValue(3);
 		}
 		else
 		{
@@ -75,9 +89,9 @@ public class FourWayMovement : MonoBehaviour
 		}
 	}
 
-	public void SetFacing(int num)
+	public void SetFacing()
 	{
-		anim.SetInteger("Facing", num);
+		anim.SetInteger("Facing", facing.Value);
 	}
 
 	#endregion

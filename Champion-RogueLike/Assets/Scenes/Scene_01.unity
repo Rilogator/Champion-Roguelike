@@ -234,6 +234,12 @@ Prefab:
       propertyPath: m_Name
       value: Knight
       objectReference: {fileID: 0}
+    - target: {fileID: 114863908597819766, guid: d93fe32e682f20744aa64893f7fb7f17,
+        type: 2}
+      propertyPath: facing
+      value: 
+      objectReference: {fileID: 11400000, guid: bffe919207633334ab5d3baec80d47fe,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d93fe32e682f20744aa64893f7fb7f17, type: 2}
   m_IsPrefabAsset: 0
