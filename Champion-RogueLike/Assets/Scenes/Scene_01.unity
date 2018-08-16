@@ -162,11 +162,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 114101339552007234, guid: d93fe32e682f20744aa64893f7fb7f17,
-        type: 2}
-      propertyPath: Response.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4078977713708730, guid: d93fe32e682f20744aa64893f7fb7f17, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -199,53 +194,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114101339552007234, guid: d93fe32e682f20744aa64893f7fb7f17,
-        type: 2}
-      propertyPath: Event
-      value: 
-      objectReference: {fileID: 11400000, guid: da8ce253eb33d854faeec47bda0a232d,
-        type: 2}
-    - target: {fileID: 114101339552007234, guid: d93fe32e682f20744aa64893f7fb7f17,
-        type: 2}
-      propertyPath: Response.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114101339552007234, guid: d93fe32e682f20744aa64893f7fb7f17,
-        type: 2}
-      propertyPath: Response.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114101339552007234, guid: d93fe32e682f20744aa64893f7fb7f17,
-        type: 2}
-      propertyPath: Response.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 371917923}
-    - target: {fileID: 114101339552007234, guid: d93fe32e682f20744aa64893f7fb7f17,
-        type: 2}
-      propertyPath: Response.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Attack
-      objectReference: {fileID: 0}
-    - target: {fileID: 114101339552007234, guid: d93fe32e682f20744aa64893f7fb7f17,
-        type: 2}
-      propertyPath: Response.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 1396682551463526, guid: d93fe32e682f20744aa64893f7fb7f17, type: 2}
       propertyPath: m_Name
       value: Knight
       objectReference: {fileID: 0}
-    - target: {fileID: 114863908597819766, guid: d93fe32e682f20744aa64893f7fb7f17,
-        type: 2}
-      propertyPath: facing
-      value: 
-      objectReference: {fileID: 11400000, guid: bffe919207633334ab5d3baec80d47fe,
-        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d93fe32e682f20744aa64893f7fb7f17, type: 2}
   m_IsPrefabAsset: 0
---- !u!114 &371917923 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114101339552007234, guid: d93fe32e682f20744aa64893f7fb7f17,
-    type: 2}
-  m_PrefabInternal: {fileID: 280549694}
-  m_Script: {fileID: 11500000, guid: 8900525beb5499440b0dec1f60d1fb5a, type: 3}
