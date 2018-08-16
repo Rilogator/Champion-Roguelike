@@ -10,7 +10,6 @@ public class AttackScript : MonoBehaviour
 	void Start ()
 	{
 		anim = gameObject.GetComponent<Animator>();
-		//myBody = gameObject.GetComponent<Rigidbody2D>();
 	}
 	
 	// Update is called once per frame
@@ -22,8 +21,17 @@ public class AttackScript : MonoBehaviour
 		}
 	}
 
+	#region Animator Events
+
 	public void ResetTrigger(string trigger)
 	{
 		anim.ResetTrigger(trigger);
 	}
+
+	public void SetCombo(bool state)
+	{
+		anim.SetBool("canCombo", state);
+	}
+
+	#endregion
 }
