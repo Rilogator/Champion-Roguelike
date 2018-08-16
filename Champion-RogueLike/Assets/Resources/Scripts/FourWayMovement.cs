@@ -34,6 +34,8 @@ public class FourWayMovement : MonoBehaviour
 		_moveY = Input.GetAxisRaw("Vertical");
 		movement = new Vector3(_moveX, _moveY).normalized;
 
+		//movement = new Vector3( Input.GetAxisRaw("Horizontal"),  Input.GetAxisRaw("Vertical") ).normalized;
+
 		//Update Animator values
 		SetMove();
 		SetFacing();
