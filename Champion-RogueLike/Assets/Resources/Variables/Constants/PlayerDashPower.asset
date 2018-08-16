@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Name: PlayerDashPower
   m_EditorClassIdentifier: 
   DeveloperDescription: "The distance the player moves when using\n the \"Dash\" command."
-  Value: 0
+  Value: 500

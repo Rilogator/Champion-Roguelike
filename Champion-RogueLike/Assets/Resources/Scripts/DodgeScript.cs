@@ -24,19 +24,26 @@ public class DodgeScript : MonoBehaviour
 	{
 		if (Input.GetButtonDown("Jump"))		
 			anim.SetTrigger("Dodge");		
+	}	
+
+		//Needs testing
+	public void DodgeUp()
+	{
+		body.AddForce(transform.up * dashPower);
 	}
 
-	//We might need a container variable to hold the player's pre-dodge speed.
-	//Further testing needed.
-
-		//Don't do this.
-	public void DodgeSpeed()
+	public void DodgeRight()
 	{
-		body.velocity *= 1.20f;
+		body.AddForce(transform.right * dashPower);
 	}
 
-	public void ReturnNormalSpeed()
+	public void DodgeDown()
 	{
-		//Subtract dashPower from PlayerSpeed.
+		body.AddForce(-transform.up * dashPower);
+	}
+
+	public void DodgeLeft()
+	{
+		body.AddForce(-transform.right * dashPower);
 	}
 }
