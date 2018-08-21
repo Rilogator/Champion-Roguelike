@@ -13,7 +13,6 @@ public class FourWayMovement : MonoBehaviour
 
 	private float _moveX, _moveY;
 	private Vector3 movement;
-	//private bool canDash = true;
 	private Vector3 mousePosition;
 	private Quaternion attackRot;
 

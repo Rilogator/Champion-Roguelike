@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: 13fb5d62a2577ee448d52e062627343b
+guid: a6e02d07f5500a64598a34ee6ea5a59e
 TextureImporter:
   fileIDToRecycleName:
-    21300000: spr_player_up_strip6_0
-    21300002: spr_player_up_strip6_1
-    21300004: spr_player_up_strip6_2
-    21300006: spr_player_up_strip6_3
-    21300008: spr_player_up_strip6_4
-    21300010: spr_player_up_strip6_5
+    21300000: Slime_0
+    21300002: Slime_1
+    21300004: Slime_2
+    21300006: Slime_3
+    21300008: Slime_4
+    21300010: Slime_5
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 10
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -90,121 +90,121 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spr_player_up_strip6_0
+      name: Slime_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 14
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c59790a300dc174f97415b70212fd5c
+      spriteID: 025074868f0c69940807036b051d1972
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_player_up_strip6_1
+      name: Slime_1
       rect:
         serializedVersion: 2
-        x: 14
+        x: 32
         y: 0
-        width: 14
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a6a2c2ba28a63b4fb4ed133b1cca483
+      spriteID: c7aded79a2ce229449f57ebb63f7ced4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_player_up_strip6_2
+      name: Slime_2
       rect:
         serializedVersion: 2
-        x: 28
+        x: 64
         y: 0
-        width: 14
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e3e86955a254ab47a8919c82493965f
+      spriteID: 4c3d1505ded3a77429b95546d279be81
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_player_up_strip6_3
+      name: Slime_3
       rect:
         serializedVersion: 2
-        x: 42
+        x: 96
         y: 0
-        width: 14
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2143be61cfaba94b9afb6a5874922d5
+      spriteID: 003e18ee472eba043862af89a42de984
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_player_up_strip6_4
+      name: Slime_4
       rect:
         serializedVersion: 2
-        x: 56
+        x: 128
         y: 0
-        width: 14
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f51f34c93d699a48815d131d477b1a9
+      spriteID: e9a0fb6ac618add4ca2ae3064037e3fc
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_player_up_strip6_5
+      name: Slime_5
       rect:
         serializedVersion: 2
-        x: 70
+        x: 160
         y: 0
-        width: 14
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 480256a7553c704459dea0e47dd92998
+      spriteID: 1f3fb9feab22c164390dd7bd9fee0d9b
       vertices: []
       indices: 
       edges: []
@@ -212,7 +212,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 0d7ce7f12c339024ab9f5cbd445666db
+    spriteID: f2aba7a82525e684084938b9b429372b
     vertices: []
     indices: 
     edges: []

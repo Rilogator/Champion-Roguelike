@@ -19,7 +19,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4603195372323150}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Game Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -171,7 +171,7 @@ GameObject:
   - component: {fileID: 4666480252610224}
   - component: {fileID: 20283020577114998}
   - component: {fileID: 81880413757621064}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Main Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
