@@ -122,11 +122,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4494612340543688, guid: 3ac2c3a83ed203542a7897cb894a7f87, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -13.18
+      value: -5.13
       objectReference: {fileID: 0}
     - target: {fileID: 4494612340543688, guid: 3ac2c3a83ed203542a7897cb894a7f87, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 7.68
+      value: 4.09
       objectReference: {fileID: 0}
     - target: {fileID: 4494612340543688, guid: 3ac2c3a83ed203542a7897cb894a7f87, type: 2}
       propertyPath: m_LocalPosition.z
@@ -154,7 +154,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 114390424888260380, guid: 3ac2c3a83ed203542a7897cb894a7f87,
         type: 2}
-      propertyPath: Player
+      propertyPath: target
       value: 
       objectReference: {fileID: 1808098369}
     m_RemovedComponents: []
@@ -198,14 +198,6 @@ Prefab:
     - target: {fileID: 4078977713708730, guid: d93fe32e682f20744aa64893f7fb7f17, type: 2}
       propertyPath: m_RootOrder
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1396682551463526, guid: d93fe32e682f20744aa64893f7fb7f17, type: 2}
-      propertyPath: m_Name
-      value: Knight
-      objectReference: {fileID: 0}
-    - target: {fileID: 1044331736401080, guid: d93fe32e682f20744aa64893f7fb7f17, type: 2}
-      propertyPath: m_Layer
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d93fe32e682f20744aa64893f7fb7f17, type: 2}
