@@ -30,13 +30,14 @@ namespace RoboRyanTron.Unite2017.Variables
 			DamageDealer damage = other.gameObject.GetComponent<DamageDealer>();
 			if (damage != null)
 			{
-				HP.ApplyChange(-damage.DamageAmount);
+				HP.SetValue(Mathf.Max(0, HP.Value - damage.DamageAmount));
 				DamageEvent.Invoke();
 			}
 
 			if (HP.Value <= 0.0f)
 			{
 				DeathEvent.Invoke();
+				Debug.Log("You died");
 			}
 		}
 	}
