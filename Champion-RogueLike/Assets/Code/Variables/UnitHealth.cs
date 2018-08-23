@@ -37,6 +37,7 @@ namespace RoboRyanTron.Unite2017.Variables
 			if (HP.Value <= 0.0f)
 			{
 				DeathEvent.Invoke();
+				Debug.Log("You died");
 			}
 		}
 	}
