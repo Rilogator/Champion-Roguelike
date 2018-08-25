@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4344108753061490}
   - component: {fileID: 114181926356937788}
   - component: {fileID: 58873295433138256}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Attack Hitbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 95911705598264782}
   - component: {fileID: 50442486793846736}
   - component: {fileID: 58107417731274760}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Knight
   m_TagString: Player
   m_Icon: {fileID: 0}
