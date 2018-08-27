@@ -19,11 +19,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4494612340543688}
+  - component: {fileID: 114078884006840768}
   - component: {fileID: 212847935954500360}
   - component: {fileID: 95876457905497322}
   - component: {fileID: 50352224056469674}
   - component: {fileID: 58981749268645696}
-  - component: {fileID: 114078884006840768}
   m_Layer: 9
   m_Name: Slime
   m_TagString: Untagged
@@ -56,7 +56,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1084352768313478}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.3149991, y: 6.5250006, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4629459080279052}
@@ -155,7 +155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 064fb858adc7e204caccb398473d7fcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 4078977713708730, guid: d93fe32e682f20744aa64893f7fb7f17, type: 2}
+  target: {fileID: 0}
   moveSpeed: 5
   maxDist: 10
   minDist: 3
