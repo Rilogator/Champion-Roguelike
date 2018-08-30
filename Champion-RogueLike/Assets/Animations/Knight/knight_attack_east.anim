@@ -56,15 +56,15 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 21300000, guid: 3acc8c14920d48f4181b251d5d3eaa8c, type: 3}
+      value: {fileID: 21300000, guid: 5e0b5132e709f264ca4709d80e64a48a, type: 3}
     - time: 0.083333336
-      value: {fileID: 21300002, guid: 3acc8c14920d48f4181b251d5d3eaa8c, type: 3}
+      value: {fileID: 21300000, guid: 6615e40e3394f034f923152f4935945d, type: 3}
     - time: 0.16666667
-      value: {fileID: 21300004, guid: 3acc8c14920d48f4181b251d5d3eaa8c, type: 3}
+      value: {fileID: 21300000, guid: a036e8bf26920b14ca2e3ce0448a50ed, type: 3}
     - time: 0.25
-      value: {fileID: 21300006, guid: 3acc8c14920d48f4181b251d5d3eaa8c, type: 3}
+      value: {fileID: 21300000, guid: 3a427c7e0b3fa0f4aabae0681e9bfa9c, type: 3}
     - time: 0.33333334
-      value: {fileID: 21300008, guid: 3acc8c14920d48f4181b251d5d3eaa8c, type: 3}
+      value: {fileID: 21300000, guid: db8fea833f8f2c7469282e5e17015c32, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -91,11 +91,11 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 21300000, guid: 3acc8c14920d48f4181b251d5d3eaa8c, type: 3}
-    - {fileID: 21300002, guid: 3acc8c14920d48f4181b251d5d3eaa8c, type: 3}
-    - {fileID: 21300004, guid: 3acc8c14920d48f4181b251d5d3eaa8c, type: 3}
-    - {fileID: 21300006, guid: 3acc8c14920d48f4181b251d5d3eaa8c, type: 3}
-    - {fileID: 21300008, guid: 3acc8c14920d48f4181b251d5d3eaa8c, type: 3}
+    - {fileID: 21300000, guid: 5e0b5132e709f264ca4709d80e64a48a, type: 3}
+    - {fileID: 21300000, guid: 6615e40e3394f034f923152f4935945d, type: 3}
+    - {fileID: 21300000, guid: a036e8bf26920b14ca2e3ce0448a50ed, type: 3}
+    - {fileID: 21300000, guid: 3a427c7e0b3fa0f4aabae0681e9bfa9c, type: 3}
+    - {fileID: 21300000, guid: db8fea833f8f2c7469282e5e17015c32, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
@@ -159,7 +159,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_GenerateMotionCurves: 0
   m_Events:
-  - time: 0.16666667
+  - time: 0.25
     functionName: ResetTrigger
     data: Attack
     objectReferenceParameter: {fileID: 0}
