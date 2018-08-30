@@ -5,7 +5,7 @@ AnimationClip:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: knight_attack_south
+  m_Name: knight_attack_west 2
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -27,7 +27,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 0.16666667
-        value: {x: 0, y: 0, z: -90}
+        value: {x: 0, y: 0, z: 180}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -81,15 +81,15 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 21300000, guid: 0f2cfce898a4b634d9ca48d2f5c48a77, type: 3}
+      value: {fileID: 21300000, guid: 606f1be9be0d8db4b95f53e6beaa0880, type: 3}
     - time: 0.083333336
-      value: {fileID: 21300002, guid: 0f2cfce898a4b634d9ca48d2f5c48a77, type: 3}
+      value: {fileID: 21300000, guid: bb9cc2bac7f12924f88b5a2caba7b918, type: 3}
     - time: 0.16666667
-      value: {fileID: 21300004, guid: 0f2cfce898a4b634d9ca48d2f5c48a77, type: 3}
+      value: {fileID: 21300000, guid: 0f3bb40136103a243b623165d281cef5, type: 3}
     - time: 0.25
-      value: {fileID: 21300006, guid: 0f2cfce898a4b634d9ca48d2f5c48a77, type: 3}
+      value: {fileID: 21300000, guid: b05451224130c84458fccec31534979e, type: 3}
     - time: 0.33333334
-      value: {fileID: 21300008, guid: 0f2cfce898a4b634d9ca48d2f5c48a77, type: 3}
+      value: {fileID: 21300000, guid: 2084a85ee28061646b3e7dddc3bde8c3, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -123,11 +123,11 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 21300000, guid: 0f2cfce898a4b634d9ca48d2f5c48a77, type: 3}
-    - {fileID: 21300002, guid: 0f2cfce898a4b634d9ca48d2f5c48a77, type: 3}
-    - {fileID: 21300004, guid: 0f2cfce898a4b634d9ca48d2f5c48a77, type: 3}
-    - {fileID: 21300006, guid: 0f2cfce898a4b634d9ca48d2f5c48a77, type: 3}
-    - {fileID: 21300008, guid: 0f2cfce898a4b634d9ca48d2f5c48a77, type: 3}
+    - {fileID: 21300000, guid: 606f1be9be0d8db4b95f53e6beaa0880, type: 3}
+    - {fileID: 21300000, guid: bb9cc2bac7f12924f88b5a2caba7b918, type: 3}
+    - {fileID: 21300000, guid: 0f3bb40136103a243b623165d281cef5, type: 3}
+    - {fileID: 21300000, guid: b05451224130c84458fccec31534979e, type: 3}
+    - {fileID: 21300000, guid: 2084a85ee28061646b3e7dddc3bde8c3, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
@@ -256,7 +256,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.16666667
-        value: -90
+        value: 180
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -305,7 +305,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_GenerateMotionCurves: 0
   m_Events:
-  - time: 0.16666667
+  - time: 0.25
     functionName: ResetTrigger
     data: Attack
     objectReferenceParameter: {fileID: 0}
