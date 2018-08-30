@@ -19,7 +19,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4494612340543688}
-  - component: {fileID: 114362135294093018}
   - component: {fileID: 114078884006840768}
   - component: {fileID: 212847935954500360}
   - component: {fileID: 95876457905497322}
@@ -27,7 +26,7 @@ GameObject:
   - component: {fileID: 58981749268645696}
   m_Layer: 9
   m_Name: Slime
-  m_TagString: Enemy
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40,8 +39,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4629459080279052}
-  - component: {fileID: 114550016994441140}
   - component: {fileID: 58323733092265086}
+  - component: {fileID: 114550016994441140}
   - component: {fileID: 212179491676438026}
   m_Layer: 8
   m_Name: Slime Hitbox
@@ -57,7 +56,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1084352768313478}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.94, y: 1.61, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4629459080279052}
@@ -159,44 +158,7 @@ MonoBehaviour:
   target: {fileID: 0}
   moveSpeed: 5
   maxDist: 10
-  minDist: 1
---- !u!114 &114362135294093018
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1084352768313478}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b8f8fed1f68ec84fb3d5c533cb666ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ResetHP: 1
-  StartingHP:
-    UseConstant: 0
-    ConstantValue: 0
-    Variable: {fileID: 11400000, guid: 87bf3afde8f606246a0419dfff72eb3b, type: 2}
-  DamageEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  DeathEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1084352768313478}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
+  minDist: 3
 --- !u!114 &114550016994441140
 MonoBehaviour:
   m_ObjectHideFlags: 1
