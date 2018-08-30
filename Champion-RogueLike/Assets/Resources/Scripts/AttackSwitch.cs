@@ -3,6 +3,7 @@ using RoboRyanTron.Unite2017.Variables;
 
 public class AttackSwitch : MonoBehaviour
 {
+	//Change this to a SO
 	public bool isOn = false;
 
 	private Animator anim;
