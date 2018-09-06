@@ -28,7 +28,7 @@ public class DodgeScript : MonoBehaviour
 		if (Input.GetButtonDown("Jump"))
 		{
 			anim.SetTrigger("Dodge");
-			StartCoroutine(dodgeInvulnerability());
+			//StartCoroutine(dodgeInvulnerability());
 		}
 	}
 
